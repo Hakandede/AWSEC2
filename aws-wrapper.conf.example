@@ -1,0 +1,11 @@
+# Copy to ~/.config/aws-wrapper.conf and fill in.
+INSTANCE_ID=i-0123456789abcdef0
+OS_USER=ubuntu
+
+# Optional: keep a local OpenVPN Connect profile pointed at the server
+# (only matters without an Elastic IP) and open the client afterwards.
+#OVPN_PROFILE="/mnt/c/Users/<you>/AppData/Roaming/OpenVPN Connect/profiles/<id>.ovpn"
+#OVPN_APP="/mnt/c/Program Files/OpenVPN Connect/OpenVPNConnect.exe"
+
+# Optional: a URL served by the same box, checked on every run.
+#HEALTH_URL=http://example.com/
